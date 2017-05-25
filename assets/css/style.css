@@ -1,0 +1,38 @@
+body {
+	background-image: url("../images/ep_naturalwhite.png");
+}
+
+.navbar {
+	background-color: #fff;
+	height: 10rem;
+	position: relative;
+	border-bottom: solid;
+	border-color: #ddd;
+}
+
+.nav {
+	float: right;
+	margin-top: 3rem;
+}
+
+.navbar-default .navbar-brand {
+	color: #fff;
+	font-size: 3.5rem;
+	font-family: 'Georgia', Times, "Times New Roman", serif;;
+	padding: 3rem;	
+	height: 7rem;
+}
+
+.navbar-brand {
+	background-color: #4aaaa5;	
+	font-weight: 600;
+	position: absolute;
+	left: 12rem;	 
+	bottom: 0;
+}
+
+.jumbotron {
+	background-color: #fff;
+	border: solid;
+	border-color: #ddd;
+}
