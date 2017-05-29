@@ -12,19 +12,16 @@ body {
 	background-image: url("../images/ep_naturalwhite.png");
 }
 
+hr {
+	height: .3rem;
+	border: none;
+	margin: 1rem;
+	background-color: #ddd;
+}
+
 .container-fluid {
 	margin: 0;
 	padding: 0;
-}
-
-.container {
-	padding-bottom: 5%;
-
-}
-
-.wrapper {
-	min-height: 100%;
-	position: relative;
 }
 
 .navbar {
@@ -42,16 +39,23 @@ body {
 	margin-top: 3rem;
 }
 
+.header-style {
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, "Times New Roman", serif;
+	margin-left: 2rem;
+
+}
+
 .navbar-default .navbar-brand {
-	color: #fff !important;  /*Overriding bootstrap :hover styles*/
+	color: #fff !important;  /* Overriding bootstrap :hover styles */
 	font-size: 3.5rem;
-	font-family: 'Georgia', Times, "Times New Roman", serif;;
+	font-family: 'Georgia', Times, "Times New Roman", serif;
 	padding: 3rem;	
 	height: 7rem;
 }
 
 .navbar-brand {
-	background-color: #4aaaa5 !important; /*Overriding bootstrap :hover styles*/
+	background-color: #4aaaa5 !important; /* Overriding bootstrap :hover styles */
 	font-weight: 600;
 	position: absolute;
 	margin-bottom: 0;
@@ -60,10 +64,14 @@ body {
 }
 
 .jumbotron {
+	width: 60%;
+	font-s: .9rem;
+}
+
+.content-style {
 	background-color: #fff;
 	border: solid;
 	border-color: #ddd;
-	width: 100%;
 }
 
 .modal-footer {
@@ -73,10 +81,7 @@ body {
 	color: #fff;
 	border-top-color: #4aaaa5;
 	border-top-style: solid;
-	border-top-width: 0.8rem;
-	position: absolute;
-	left: 0;
-	bottom: 0;
+	border-top-width: 0.6rem;
 } 
 
 #wrapper {
@@ -88,9 +93,14 @@ body {
 #content {
 	padding-bottom: 5%;	/* padding = heigh of footer + some */
 }
-/*
+
+#connect {
+	width: 25%;
+	float: right;
+}
+
 #footer {
 	position: absolute;
 	left: 0;
 	bottom: 0;
-}*/
+}
