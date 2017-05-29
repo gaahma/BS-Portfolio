@@ -2,7 +2,7 @@
 * {
 	box-sizing: border-box;
 }
-html body {
+html, body {
 	height: 100%;
 	margin: 0;
 	padding: 0;
@@ -78,3 +78,19 @@ body {
 	left: 0;
 	bottom: 0;
 } 
+
+#wrapper {
+	min-height: 100%;
+	position: relative;
+}
+
+
+#content {
+	padding-bottom: 5%;	/* padding = heigh of footer + some */
+}
+/*
+#footer {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}*/
